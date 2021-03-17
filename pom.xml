@@ -4,7 +4,7 @@
   <groupId>com.stacktoheap.maven_ci_example</groupId>
   <artifactId>maven_ci_example</artifactId>
   <packaging>jar</packaging>
-  <version>1.0</version>
+  <version>1.1</version>
   <name>maven_ci_example</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -22,7 +22,7 @@
       <!-- Build an executable JAR -->
       <groupId>com.stacktoheap.maven_ci_example</groupId>
       <artifactId>>maven_ci_example</artifactId>
-      <version>1.0</version>
+      <version>1.1</version>
       <configuration>
         <archive>
           <manifest>
