@@ -15,4 +15,25 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+  <build>
+  <plugins>
+    <plugin>
+      <!-- Build an executable JAR -->
+      <groupId>com.stacktoheap.maven_ci_example</groupId>
+      <artifactId>>maven_ci_example</artifactId>
+      <version>1.0</version>
+      <configuration>
+        <archive>
+          <manifest>
+            <addClasspath>true</addClasspath>
+            <classpathPrefix>lib/</classpathPrefix>
+            <mainClass>com.stacktoheap.App</mainClass>
+          </manifest>
+        </archive>
+      </configuration>
+    </plugin>
+  </plugins>
+</build>
+  
 </project>
