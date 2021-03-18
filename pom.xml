@@ -4,7 +4,7 @@
   <groupId>com.stacktoheap.maven_ci_example</groupId>
   <artifactId>maven_ci_example</artifactId>
   <packaging>jar</packaging>
-  <version>1.23</version>
+  <version>1.33</version>
   <name>maven_ci_example</name>
   <url>http://maven.apache.org</url>
   <dependencies>
