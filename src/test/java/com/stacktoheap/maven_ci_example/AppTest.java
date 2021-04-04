@@ -33,6 +33,7 @@ public class AppTest
      */
     public void testApp()
     {
+        /** ADD TEST COMMENT FOR PR**/
         assertTrue( true );
     }
 }
